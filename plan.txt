@@ -1,0 +1,10 @@
+1. Start Django project, create database for it.
+2. Startapp search create model for list of preferences.
+
+
+
+Structure:
+search -> (DjangoFrame/mysite, Database,), review_request_app -> (appFramework) -> 
+(models -> classPreferences-preference 1-10 various qualities, e.g, 1-10 audioPreference.) 
+(views -> List of 1-10 preferences with button updates after preferences are made and supplies
+Url and img of product found that listed preferences) 
