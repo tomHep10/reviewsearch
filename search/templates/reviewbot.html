@@ -1,1 +1,26 @@
-<h1>Hello ReviewBot</h1>
+<!-- pages/templates/pages/home.html -->
+
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		{% block page_content %}
+		<h1>Hello ReviewBot</h1>	
+
+		<!-- add dropdowns and formatting-->
+		<div class="container">                                          
+			<div class="dropdown">
+			  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Attributes
+			  <span class="caret"></span></button>
+			  <ul class="dropdown-menu">
+				<li><a href="#">Audio</a></li>
+				<li><a href="#">Microphone</a></li>
+			  </ul>
+			</div>
+		  </div>
+		{% endblock page_content %}
+	</body>
+</html>
