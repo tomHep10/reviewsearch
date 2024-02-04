@@ -1,10 +1,8 @@
-1. Start Django project, create database for it.
-2. Startapp search create model for list of preferences.
-
-
-
-Structure:
-search -> (DjangoFrame/mysite, Database,), review_request_app -> (appFramework) -> 
-(models -> classPreferences-preference 1-10 various qualities, e.g, 1-10 audioPreference.) 
-(views -> List of 1-10 preferences with button updates after preferences are made and supplies
-Url and img of product found that listed preferences) 
+search page:
+ product you would like searched: *text input
+//after input this is deleted and replaced with: "Selected Item: *input"
+What attributes are most important to you:
+*h3 attribute: *h3 importance:
+*text input, *range input
++ button to be replaced by line 6 
+submit button
