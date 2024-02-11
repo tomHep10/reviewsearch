@@ -5,7 +5,6 @@ from . import forms
 def search(request):    
     if request.method == "POST":
         item = forms.ItemForm(request.POST)
-
         if item.is_valid():
             input = item.cleaned_data['item']
             print(input)

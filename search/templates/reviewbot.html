@@ -12,16 +12,13 @@
 </div>
 
 {% if input %}
+
 <div id="out">
 	<p>You entered: {{input}}</p>
 </div>
+
+{% include 'attributes.html' %}
+
 {% endif %}
-
-<br><br>
-
-<div>
-	<h3>Attribute:</h3>
-	<h3>Frequency:</h3>
-</div>
 
 {% endblock page_content %}
