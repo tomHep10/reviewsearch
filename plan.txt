@@ -1,8 +1,0 @@
-search page:
- product you would like searched: *text input
-//after input this is deleted and replaced with: "Selected Item: *input"
-What attributes are most important to you:
-*h3 attribute: *h3 importance:
-*text input, *range input
-+ button to be replaced by line 6 
-submit button
